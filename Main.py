@@ -1,3 +1,8 @@
+"""
+Assumptions: 
+1. If a student has the same weightage score to any schools, the student will be allocated to the smallest indexed school
+2. Sorting takes place in O(1) memory, which is better than heap construction O(students) memory due to O(n^2) time bottleneck of checking each student
+"""
 import json
 import sys
 from enum import Enum
